@@ -1,7 +1,13 @@
 /* common shared styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lato", sans-serif;
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
 }
 
 .text-primary {
@@ -11,11 +17,17 @@ body {
 .btn-primary {
   background-color: #fd6e0a;
   border-radius: 5px;
+  border: 0;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 32px;
 }
 
 /* nav related styles */
 nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-title {
@@ -27,6 +39,7 @@ nav {
 
 nav > ul {
   display: flex;
+  align-items: center;
 }
 
 nav li {
