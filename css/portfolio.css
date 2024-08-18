@@ -23,11 +23,38 @@ body {
   padding: 12px 32px;
 }
 
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 8rem;
+}
+
+.banner-content p {
+  line-height: 1.8;
+  letter-spacing: 2px;
+  margin-bottom: 1.2rem;
+}
+
+.banner-greeting,
+.banner-title {
+  line-height: 2;
+}
+
+.banner .profile-pic {
+  width: 400px;
+}
+
 /* nav related styles */
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 8rem;
 }
 
 .nav-title {
