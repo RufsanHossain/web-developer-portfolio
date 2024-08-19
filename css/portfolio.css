@@ -27,6 +27,10 @@ section {
   padding: 2.5rem 8rem;
 }
 
+section > article {
+  padding: 2rem;
+}
+
 .section-title {
   color: #181818;
   text-align: center;
@@ -37,6 +41,8 @@ section {
 .section-description {
   font-family: "Lato", sans-serif;
   color: #757575;
+  line-height: 1.8;
+  letter-spacing: 2px;
   text-align: center;
   font-size: 18px;
   padding: 1.5rem 1.5rem 0;
@@ -126,6 +132,33 @@ nav a {
   margin: 130px 8rem;
 }
 
-.about > article {
+.about-info-container,
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info-container {
   padding: 2rem;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-title {
+  margin-bottom: 1rem;
+  font-weight: normal;
+  color: #474747;
+}
+
+.info-description {
+  font-weight: bold;
+  color: #181818;
+}
+
+/* what i do section */
+#work-description {
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
